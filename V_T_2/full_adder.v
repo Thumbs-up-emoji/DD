@@ -13,8 +13,10 @@ module full_adder(input A,input B,input C0,output C1,output S);
 
     //or or1(o1,a1,a2);
     //or or2(C1,o1,a3);
+
     //assign S=A^B^C0;
     //assign C1=(A&&B) || (B&&C0) || (C0&&A);
+    
     wire CMID;
     wire W1, W2;
     half adder h1(A,B,CMID,W1);

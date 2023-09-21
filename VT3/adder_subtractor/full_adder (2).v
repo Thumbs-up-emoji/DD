@@ -10,6 +10,4 @@ and and3(a3,A,Cin);
 
 or or1(o1,a1,a2);
 or or2(Cout,a3,o1);
-
-
 endmodule
