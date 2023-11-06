@@ -13,7 +13,7 @@ module up_down_bcd_counter_testbench();
     end
 
     initial begin
-        $dumpfile("out.vcd");
+        $dumpfile("out2.vcd");
         $dumpvars(0, up_down_bcd_counter_testbench);
         reset = 1;
         #15;

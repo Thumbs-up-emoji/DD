@@ -9,7 +9,7 @@ clk=0;
 forever #5 clk=~clk;
 end
 initial begin
-    $dumpfile("out.vcd");
+    $dumpfile("out1.vcd");
     $dumpvars(0, upcounter_testbench);
 reset=1;
 #15;

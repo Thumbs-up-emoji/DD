@@ -12,7 +12,7 @@ module twisted_johnson_counter_testbench();
     end
 
     initial begin
-        $dumpfile("out.vcd");
+        $dumpfile("out4.vcd");
         $dumpvars(0, twisted_johnson_counter_testbench);
         reset = 1;
         #15;
