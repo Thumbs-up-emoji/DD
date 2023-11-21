@@ -1,0 +1,29 @@
+$date
+	Fri Nov 17 12:11:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! out $end
+$var reg 3 " in [2:0] $end
+$scope module tb_check $end
+$var wire 3 # in [2:0] $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+0!
+$end
+#10
+1!
+b101 "
+b101 #
+#210
