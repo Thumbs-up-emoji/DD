@@ -1,4 +1,4 @@
-`include "full_adder.v"
+`include "full_adder (2).v"
 
 module adder (input [3:0] A, input [3:0] B, input Cin,output [3:0] S,output Cout);
     wire C1,C2,C3;

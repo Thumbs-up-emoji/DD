@@ -1,4 +1,4 @@
-`include "mux_2to1.v"
+`include "mux_2to1 (2).v"
 module mux_4to1(input [3:0] in,input [1:0] select,output out);
     wire [1:0] m;
 

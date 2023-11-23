@@ -1,4 +1,4 @@
-`include "mux_4to1.v"
+`include "mux_4to1 (2).v"
 module testbench ();
     //inputs
     reg [3:0] t_in;

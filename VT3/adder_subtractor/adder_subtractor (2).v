@@ -1,4 +1,4 @@
-`include "adder_4bit.v"
+`include "adder_4bit (2).v"
 
 module adder_subtract (input [3:0]A, input[3:0]B, input CTR,output [3:0]S, output sign,output c1);
     wire [3:0] x1,x2;
