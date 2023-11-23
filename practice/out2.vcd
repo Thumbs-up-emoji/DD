@@ -1,0 +1,98 @@
+$date
+	Thu Nov 23 23:45:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_sequence_detector $end
+$var wire 1 ! detected $end
+$var reg 1 " clk $end
+$var reg 1 # data_in $end
+$var reg 1 $ reset $end
+$scope module u1 $end
+$var wire 1 " clk $end
+$var wire 1 # data_in $end
+$var wire 1 $ reset $end
+$var reg 1 ! detected $end
+$var reg 2 % next_state [1:0] $end
+$var reg 2 & state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+1$
+0#
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+0$
+#15
+1"
+#20
+0"
+1$
+#25
+1"
+#30
+0"
+0$
+#35
+1"
+#40
+b1 %
+0"
+1#
+#45
+b10 %
+b1 &
+1"
+#50
+0"
+#55
+b10 &
+1"
+#60
+b11 %
+0"
+0#
+#65
+1!
+b0 %
+b11 &
+1"
+#70
+b10 %
+0"
+1#
+#75
+0!
+b10 &
+1"
+#80
+0"
+#85
+1"
+#90
+b11 %
+0"
+0#
+#95
+1!
+b0 %
+b11 &
+1"
+#100
+0"

@@ -1,5 +1,5 @@
 $date
-	Wed Sep 13 08:35:01 2023
+	Thu Nov 23 19:10:36 2023
 $end
 $version
 	Icarus Verilog
@@ -9,37 +9,24 @@ $timescale
 $end
 $scope module t_function $end
 $var wire 1 ! S $end
-$var wire 1 " C1 $end
+$var wire 1 " C $end
 $var parameter 32 # stop_time $end
 $var reg 1 $ A $end
 $var reg 1 % B $end
-$var reg 1 & C0 $end
-$scope module fa $end
+$scope module h1 $end
 $var wire 1 $ A $end
 $var wire 1 % B $end
-$var wire 1 & C0 $end
 $var wire 1 " C1 $end
 $var wire 1 ! S $end
-$var wire 1 ' a1 $end
-$var wire 1 ( a2 $end
-$var wire 1 ) a3 $end
-$var wire 1 * o1 $end
-$var wire 1 + x1 $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 $comment Show the parameter values. $end
 $dumpall
-b1100100 #
+b110010 #
 $end
 #0
 $dumpvars
-0+
-0*
-0)
-0(
-0'
-0&
 0%
 0$
 0"
@@ -47,43 +34,13 @@ $dumpvars
 $end
 #10
 1!
-1+
 1$
 #20
-1"
 0!
-1*
-0+
-1'
+1"
 1%
 #30
+1!
 0"
-1!
-0*
-1+
-0'
 0$
-#40
-0+
-1&
-0%
 #50
-0!
-1"
-1+
-1)
-1$
-#60
-1!
-1*
-0+
-1'
-1(
-1%
-#70
-0!
-1+
-0'
-0)
-0$
-#100
